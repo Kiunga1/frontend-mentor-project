@@ -24,30 +24,32 @@
   body {
     font-size: 15px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 100px;
+    height: 800px
     
   
   }
   #qrCode {
     background-color: hsl(0, 0%, 100%);
     padding: 5px;
-    height: 450px;
+    height: 500px;
     width: 270px;
     max-width: 400px;
     border: 0;
-    border-radius: 15px;
+    border-radius: 20px;
   }
   img {
     height: 250px;
     width: 250px;
     border: 0;
     border-radius: 15px;
+    padding: 0;
     
   }
   
@@ -70,4 +72,23 @@
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
-  
+
+  h1, .attribution {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+  }
+  p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+  }
+
+  /* Styles for Mobile Devices (max width 375px) */
+@media (max-width: 375px) {
+    body {
+        max-height: 500px;
+        width: 150px;
+        
+
+
+    }
+}
