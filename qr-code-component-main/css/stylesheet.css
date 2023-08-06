@@ -65,14 +65,20 @@
   
   }
   
-  footer {
   
-  }
   
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
 
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%);
+  }
+  
   h1, .attribution {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
