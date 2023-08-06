@@ -42,47 +42,48 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 My major learning sections while working through this project are:
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+1. Applying rounded borders.
+2. Selecting element by use of classes and Id's.
+3. Selecting more than one element.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+img {
+    
+    border: 0;
+    border-radius: 15px;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+#qrCode {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+    height: 500px;
+    width: 270px;
+    max-width: 400px;
+    border: 0;
+    border-radius: 20px;
+  }
+
+ h1, .attribution {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+  }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Looking forward to learning more in the folowing areas:
+-Responsive web development
+-Flexbox
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Acomplete guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me with perfecting the layout of my project. I really liked how well summarized the concepts were. I will be using this tricks going forward.
+- [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp) - This is an amazing article which helped me finally understand applying rounded corners to CSS. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Ann Mukami](https://www.your-site.com)
+- Frontend Mentor - [@Kiunga1](https://www.frontendmentor.io/profile/Kiunga1)
+- Twitter - [@AnnKiungaa](https://www.twitter.com/AnnKiungaa)
 
 ## Acknowledgments
 
